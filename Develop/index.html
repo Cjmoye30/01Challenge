@@ -10,36 +10,33 @@
 </head>
 
 <body>
-    <!-- Update header from div to a Semantic Element -->
     <!-- Header Section -->
     <header>
         <h1>Hori<span class="seo">seo</span>n</h1>
 
-        <!-- This is a div with no name which should have nav instead -->
-        <!-- nav is a common semantic element which should be used instead -->
+        <!-- Nav element to wrap all header navigation links -->
         <nav>
             <ul>
-                <li>
+                <li class="nav-links">
                     <a href="#search-engine-optimization">Search Engine Optimization</a>
                 </li>
-                <li>
+                <li class="nav-links">
                     <a href="#online-reputation-management">Online Reputation Management</a>
                 </li>
-                <li>
+                <li class="nav-links">
                     <a href="#social-media-marketing">Social Media Marketing</a>
                 </li>
             </ul>
         </nav>
     </header>
 
-    <!-- Update hero image to have the img tag in the HTML, and all of the styling in CSS. Reasoning is so that we can use alt text for accessibility.-->
-
+    <!-- Hero Image Section - keeping outside of main as it not necessarily the "main" content -->
     <div class="hero">
         <img class="hero-img" src="assets/images/digital-marketing-meeting.jpg"
             alt="Example of a digital marketing meeting taking place.">
     </div>
 
-    <!-- Benefits - Side Content -->
+    <!-- Benefits Section - Side (Aside) Content -->
     <aside>
 
         <div class="benefits">
@@ -78,10 +75,10 @@
 
     </aside>
 
-    <!-- Change to main instead of div.content -->
-    <!-- Use sections within main content and use their unique identifiers there, and use a more general class name for each of the sections. -->
+    <!-- Main Section - All Descriptive Content -->
     <main>
 
+        <!-- Search Engine Optimization -->
         <section id="search-engine-optimization">
             <div class="section-content">
                 <img src="./assets/images/search-engine-optimization.jpg" class="float-left" />
@@ -94,6 +91,7 @@
             </div>
         </section>
 
+        <!-- Online Reputation Management -->
         <section id="online-reputation-management">
             <div class="section-content">
                 <img src="./assets/images/online-reputation-management.jpg" class="float-right" />
@@ -106,6 +104,7 @@
             </div>
         </section>
 
+        <!-- Social Media Marketing -->
         <section id="social-media-marketing">
             <div  class="section-content">
                 <img src="./assets/images/social-media-marketing.jpg" class="float-left" />
@@ -120,7 +119,7 @@
     </main>
 
 
-    <!-- Replace with footer HTML element -->
+    <!-- Footer Section-->
     <footer>
         <h2>Made with ❤️️ by Horiseon</h2>
         <p>
