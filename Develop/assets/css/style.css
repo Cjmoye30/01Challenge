@@ -86,7 +86,7 @@ main {
     margin-left: 20px;
 }
 
-/* Updated from benefits to aside */
+/* Side Benefits Section Styling */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -98,50 +98,18 @@ aside {
     background-color: #2589bd;
 }
 
-/* All of these benefits can be condensed */
-.benefit-lead {
+/* Side Benefit Content Styling */
+.benefits .benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+.benefits h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
+.benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
