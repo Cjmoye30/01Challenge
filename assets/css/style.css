@@ -1,9 +1,11 @@
+/* Universal selector */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Semantic Elements */
 header,
 footer {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -41,6 +43,8 @@ header h1 {
     color: #d9dcd6;
 }
 
+/* Navigation Bar in Header Section */
+
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -53,6 +57,7 @@ nav {
     margin-left: 25px;
 }
 
+/* Hero Image Section */
 .hero {
     height: 800px;
     width: 100%;
@@ -68,23 +73,8 @@ nav {
     overflow: hidden;
 }
 
-/* This class name can be changed to something different - this is odd and not a good identifier. */
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
 
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
-main {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
+/* Benefits Section - Side Content */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -93,6 +83,13 @@ aside {
     width: 20%;
     height: 100%;
     background-color: #2589bd;
+}
+
+/* Main Content Section */
+main {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
 }
 
 .benefits .benefit {
@@ -111,8 +108,7 @@ aside {
     max-width: 150px;
 }
 
-
-
+/* Sections Content */
 section {
     margin-bottom: 20px;
     padding: 50px;
@@ -121,15 +117,23 @@ section {
     color: #ffffff;
 }
 
-section h2 {
+.section-header {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
 section img {
     max-height: 200px;
+    float: left;
+    margin-right: 25px;
 }
 
+.section-image-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* Footer Section */
 footer {
     padding: 30px;
     clear: both;
