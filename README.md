@@ -22,7 +22,7 @@
 
 ## Screenshot
 
-![Horiseon Code Refactor Webpage Screenshot](./Develop/assets/images/01-html-css-git-homework-demo.png)
+![Horiseon Code Refactor Webpage Screenshot](/assets/images/01-html-css-git-homework-demo.png)
 
 ## Installation - Link to Deploy
 
