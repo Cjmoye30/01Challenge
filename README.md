@@ -13,7 +13,7 @@
 ### What problem does it solve?
 * This code refactor eliminates possible accessibility issues users with disabilities could have when viewing this webpage. Webpages will rank higher in the search results when accessibility standards are followed
 
-- What did you learn?
+### What did you learn?
 * Proper use of semantic elements - HTML, body, main, aside, section, etc.
 * The flow of the HTML code is independent of how it appears on the page - ex. The semantic element **Aside** should be near the top of the HTML code although it may be off to the right side of the page.
 * *The Scout Rule* - means we leave the code cleaner than we found it.
@@ -22,7 +22,7 @@
 
 ## Screenshot
 
-![Horiseon Code Refactor Webpage Screenshot](./Assets/01-html-css-git-homework-demo.png)
+![Horiseon Code Refactor Webpage Screenshot](./Develop/assets/images/01-html-css-git-homework-demo.png)
 
 ## Installation - Link to Deploy
 
